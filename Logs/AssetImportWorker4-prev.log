@@ -1,0 +1,1530 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Unity projects/Thaka task
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65273
+Successfully changed project path to: E:/Unity projects/Thaka task
+E:/Unity projects/Thaka task
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22196] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3895755023 [EditorId] 3895755023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-80QT95Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22196] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3895755023 [EditorId] 3895755023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-80QT95Q) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 6.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity projects/Thaka task/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5979 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008698 seconds.
+- Loaded All Assemblies, in  0.461 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 254 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1156ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (202ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (697ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (406ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.818 seconds
+Domain Reload Profiling: 1563ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (323ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (195ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (818ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (382ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (57.1 KB). Loaded Objects now: 3620.
+Memory consumption went from 132.8 MB to 132.8 MB.
+Total: 2.701500 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.230400 ms MarkObjects: 2.154400 ms  DeleteObjects: 0.076100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109788.885525 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Menu-4.png
+  artifactKey: Guid(1e64e5bb60a4ed44c9fa7cef1e06dded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Menu-4.png using Guid(1e64e5bb60a4ed44c9fa7cef1e06dded) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9c6b29230fd0e6aa1cc439d22fe475e') in 0.158174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Achivement2.png
+  artifactKey: Guid(8aedc7a5f91d6df469a773f035abf288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Achivement2.png using Guid(8aedc7a5f91d6df469a773f035abf288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a11522a96a0fa68dcf7a9a1577642cfc') in 0.029637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Delete.png
+  artifactKey: Guid(24da3172367d2924e89b296480c09b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Delete.png using Guid(24da3172367d2924e89b296480c09b6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '133c31c2f1c1718d8c6a8639f4315d8a') in 0.031356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Cart.png
+  artifactKey: Guid(370cd39be2ecafe4086abc13da028682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Cart.png using Guid(370cd39be2ecafe4086abc13da028682) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '626c35b4ba2773c3a93539db449ad168') in 0.030563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Sound-Off.png
+  artifactKey: Guid(df79982dfec1b3b48919e05854779a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Sound-Off.png using Guid(df79982dfec1b3b48919e05854779a83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de9466c3b632d8cd4762cf0e625699f6') in 0.031649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/back-1.png
+  artifactKey: Guid(e85f6d0215163ff4fa31fcfaf79bc3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/back-1.png using Guid(e85f6d0215163ff4fa31fcfaf79bc3cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '720edaaa2a04775e8b610a5701245b9a') in 0.028175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Chat.png
+  artifactKey: Guid(429e22132b08c2546b3d0b607b3487ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Chat.png using Guid(429e22132b08c2546b3d0b607b3487ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b5e2e60511724fde6fcb4874341f067') in 0.030306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Backward.png
+  artifactKey: Guid(5f445e303b717ed45ba4e0d4b8516113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Backward.png using Guid(5f445e303b717ed45ba4e0d4b8516113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '670bf44070e84f6906298262acda204c') in 0.031360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Bullet-1.png
+  artifactKey: Guid(b7211007ed40bde4a9d958815501ff79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Bullet-1.png using Guid(b7211007ed40bde4a9d958815501ff79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6c60ee3b5913ad77380ec9fdc4ebf96') in 0.033496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Dislike.png
+  artifactKey: Guid(6945182a511c1774794113ee8de03b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Dislike.png using Guid(6945182a511c1774794113ee8de03b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0988f5e7d4c059ecb11681e272040a4e') in 0.027773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Back.png
+  artifactKey: Guid(82a6220b02638a14eb3fdb860b6c8bda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Back.png using Guid(82a6220b02638a14eb3fdb860b6c8bda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6241244d2d72e012043323bd2574474e') in 0.031105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Soundon-.png
+  artifactKey: Guid(1b8ff7358976fd243a9a5798bda22158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Soundon-.png using Guid(1b8ff7358976fd243a9a5798bda22158) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08a78965ab204c244e743a09f4f7a016') in 0.029079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/SaurabhStudio.pdf
+  artifactKey: Guid(0fbdf0e15c6b0e048a000918c1e5b43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/SaurabhStudio.pdf using Guid(0fbdf0e15c6b0e048a000918c1e5b43a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d37f1279f96452da53456f34aa3e118') in 0.010540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Copy.png
+  artifactKey: Guid(43be7c44ff583da429fa6901bb0bbf91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Copy.png using Guid(43be7c44ff583da429fa6901bb0bbf91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9efedd1b028be28185191d3846367966') in 0.030442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/coin-2.png
+  artifactKey: Guid(6bf203abb15d47045a6824d411dbbc2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/coin-2.png using Guid(6bf203abb15d47045a6824d411dbbc2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '669cc55749b21df1c139b228402a79d4') in 0.027720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Gift.png
+  artifactKey: Guid(5c88b22f462597e41a5980e6d753f882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Gift.png using Guid(5c88b22f462597e41a5980e6d753f882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cb7d95b8006423c8a51f9e8b0b1eeea4') in 0.028395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Fill/1.png
+  artifactKey: Guid(3e3003f841c36aa45b6877b75964e8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Fill/1.png using Guid(3e3003f841c36aa45b6877b75964e8d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '110a90bb6f778d6cfe828f474e27eb86') in 0.027676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Book.png
+  artifactKey: Guid(2e4003ab1aae3914982f998a27736f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Book.png using Guid(2e4003ab1aae3914982f998a27736f91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '202de6ac6f99ce2aa46e6b7a4f126988') in 0.027477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Hint.png
+  artifactKey: Guid(66beb6b28206d1740866e4d2feeb0907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Hint.png using Guid(66beb6b28206d1740866e4d2feeb0907) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aed0adbb0ad4f3473fb6dc27a2105c9d') in 0.029900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/No-ads.png
+  artifactKey: Guid(8c6bcddbaa8c0b54dad2c0b17ac97646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/No-ads.png using Guid(8c6bcddbaa8c0b54dad2c0b17ac97646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '571facc3368bba8cc7eff6eb72fc0361') in 0.029683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Settings-2.png
+  artifactKey: Guid(50f70c5b27a075e4f9ebe4b42662175a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Settings-2.png using Guid(50f70c5b27a075e4f9ebe4b42662175a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c06109665a9f8c9b78400498e400cf80') in 0.028162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/INFO.png
+  artifactKey: Guid(61a7a9ece5431bd41aadc2aa15f6593f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/INFO.png using Guid(61a7a9ece5431bd41aadc2aa15f6593f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40eec13f72be976c1d33ac5df43c7709') in 0.028826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Music-on.png
+  artifactKey: Guid(ad07ecc98400ad94888e6a632e444b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Music-on.png using Guid(ad07ecc98400ad94888e6a632e444b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '024c1bc2232a86b808375d8fa7eed9da') in 0.028420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/NotificationOff.png
+  artifactKey: Guid(11a37db9db528cc4692301410217333f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/NotificationOff.png using Guid(11a37db9db528cc4692301410217333f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd7aaed71c42cd9a6d315a96494e2103') in 0.029715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Like.png
+  artifactKey: Guid(0b5d94c3a75504641825131488c218c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Like.png using Guid(0b5d94c3a75504641825131488c218c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b35efe42d054fdea67ad5bb1c5f9fbea') in 0.033355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Sound-Off.png
+  artifactKey: Guid(84e64c74debeba64386e5fe2ff91ce0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Sound-Off.png using Guid(84e64c74debeba64386e5fe2ff91ce0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03a62eaf80704f8e6de729323cfbf9c3') in 0.030613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Menu-2.png
+  artifactKey: Guid(b9de9ea040514774791056d1a399b32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Menu-2.png using Guid(b9de9ea040514774791056d1a399b32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ad902d32bf40413ebfb1425c2cff6b6') in 0.027377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Retry.png
+  artifactKey: Guid(473b5e7297a82e44ebbf80e893171b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Retry.png using Guid(473b5e7297a82e44ebbf80e893171b26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf8b8fdcc83e2b737dceb1a528338f4f') in 0.028092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Logout.png
+  artifactKey: Guid(5b1f3f7ef68333743b003238a9956d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Logout.png using Guid(5b1f3f7ef68333743b003238a9956d45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '774812390e906f313d49bf08d4edd97b') in 0.027429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Question.png
+  artifactKey: Guid(c1f40555f94b1da4aa3c3080c04c331e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Question.png using Guid(c1f40555f94b1da4aa3c3080c04c331e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fda133387bd6fd2d3763a999f56c84bb') in 0.030686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Pause.png
+  artifactKey: Guid(b5c439af80a4f9b419e997bc46ea37ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Pause.png using Guid(b5c439af80a4f9b419e997bc46ea37ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6b0541207af3aa40611c5f653685aeb') in 0.034900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Sharee.png
+  artifactKey: Guid(e4fd75fc5a0b8da47adfc0938055a860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Sharee.png using Guid(e4fd75fc5a0b8da47adfc0938055a860) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cd5a2925eec93666e29765aab787540') in 0.029111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Music-2.png
+  artifactKey: Guid(86e352a8a5564ae41aca013f4e2a1b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Music-2.png using Guid(86e352a8a5564ae41aca013f4e2a1b58) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f79bebb1c3df55f4a31e2d40bc47b12c') in 0.031786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/People.png
+  artifactKey: Guid(4c9743fb56402cd41819584ab159dbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/People.png using Guid(4c9743fb56402cd41819584ab159dbbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a44fbdc74872c9cdeedb215bb6a56d23') in 0.031462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Removepeople.png
+  artifactKey: Guid(2fb15e206a14a854a878d80e360eabca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Removepeople.png using Guid(2fb15e206a14a854a878d80e360eabca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed1ced560dc4b319dc02b08c101b5d94') in 0.035961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Backward.png
+  artifactKey: Guid(6fa2c36597c67784eacd04938cb03971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Backward.png using Guid(6fa2c36597c67784eacd04938cb03971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5ad81f7f0e04fd263765e41fcd18d27') in 0.034415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Dislike.png
+  artifactKey: Guid(ee93ef84ef6ec7844b07bd0618603fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Dislike.png using Guid(ee93ef84ef6ec7844b07bd0618603fa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ef69aefeeef3be00ca6104b483b3c8d') in 0.034327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Down.png
+  artifactKey: Guid(a762e8189b9eb734b875bb5150d16ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Down.png using Guid(a762e8189b9eb734b875bb5150d16ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9ab5386110ffa2b1c0ed95494974f5b') in 0.033834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Gift.png
+  artifactKey: Guid(ee6de77266fb65441b8658b588feca6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Gift.png using Guid(ee6de77266fb65441b8658b588feca6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2ccf16a59fcbc576ea8485cfaea5c67') in 0.035967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Edit.png
+  artifactKey: Guid(05e65c4b56399cb4487ebbaaf352a643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Edit.png using Guid(05e65c4b56399cb4487ebbaaf352a643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a29eb1b6e0d6c068c1f84322ab15e4f') in 0.034539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Download.png
+  artifactKey: Guid(69ae25d6b4e4717448cd45646b157ac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Download.png using Guid(69ae25d6b4e4717448cd45646b157ac3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c65cf4e2c6538c038336d93e4934e1e5') in 0.034828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Achivement2.png
+  artifactKey: Guid(a9b61eb255e1d034789c0b7759371e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Achivement2.png using Guid(a9b61eb255e1d034789c0b7759371e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5156e190880c11a2badd6568e08c7603') in 0.039129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Blank.png
+  artifactKey: Guid(ca619a957a30a88458d2a9129382c9f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Blank.png using Guid(ca619a957a30a88458d2a9129382c9f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd0fee496629edba54052954d08d676') in 0.032637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Like.png
+  artifactKey: Guid(5bc20c40498498e4ca20e36f46558b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Like.png using Guid(5bc20c40498498e4ca20e36f46558b11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e75ba867818f76cdd710bb130e24a103') in 0.028056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Bullet-1.png
+  artifactKey: Guid(0e714f71d62107c4496c631a08083bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Bullet-1.png using Guid(0e714f71d62107c4496c631a08083bd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4642f727159b6a6d46418031c2d086f') in 0.030591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Home.png
+  artifactKey: Guid(5c2a047fd3d340649b9b462da680abad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Home.png using Guid(5c2a047fd3d340649b9b462da680abad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbabfb2d0c60acc939563c958d48db49') in 0.030835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Achivement3.png
+  artifactKey: Guid(d71d903df36926d4398efd74f04a2112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Achivement3.png using Guid(d71d903df36926d4398efd74f04a2112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1f05899c7899fe7aac4fd3fcce0e04b') in 0.030633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Up.png
+  artifactKey: Guid(22d6b7fabec0f354595947332b4c6fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Up.png using Guid(22d6b7fabec0f354595947332b4c6fc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47341baffa8257f4c7f0bd17eaab7e91') in 0.031601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/INFO.png
+  artifactKey: Guid(1e2ffa4dab80f4a4f8f350186b88a81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/INFO.png using Guid(1e2ffa4dab80f4a4f8f350186b88a81f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee123cee637a1f8995557d8fc982e68f') in 0.031516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Zoom.png
+  artifactKey: Guid(1772fe7aa063adf459e795d862099f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 2/Zoom.png using Guid(1772fe7aa063adf459e795d862099f89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37a0c31816640ffffbdca09050ed6f8e') in 0.033190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Gallery.png
+  artifactKey: Guid(bb9a96a20628d314991b875c0571f6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Gallery.png using Guid(bb9a96a20628d314991b875c0571f6f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3a8f3e374b449e1f74d7e1f3b7f17dab') in 0.028380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Back.png
+  artifactKey: Guid(987aa5c691a9b9743a7155f53230069c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 1/Back.png using Guid(987aa5c691a9b9743a7155f53230069c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83418abe1315da7f8e3f9d6bf5c96497') in 0.028220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Soundon-.png
+  artifactKey: Guid(d3d4922e273ebd3438901aeebf78f629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Soundon-.png using Guid(d3d4922e273ebd3438901aeebf78f629) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3038277ddbad1edd925feac47fe0b236') in 0.029193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Rate.png
+  artifactKey: Guid(9252ce4d81c831f41a37a4477e987257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Rate.png using Guid(9252ce4d81c831f41a37a4477e987257) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36121390e921fa278cd181064230220f') in 0.028751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Shuffle.png
+  artifactKey: Guid(6ea80999e0ba84c45968671c17278eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Shuffle.png using Guid(6ea80999e0ba84c45968671c17278eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5358159a6b58c79fb17e7c469fb74a0b') in 0.030484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Up.png
+  artifactKey: Guid(e206ef67b34ac7d4aa4ab22cc29ae727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Up.png using Guid(e206ef67b34ac7d4aa4ab22cc29ae727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ef45cdceda5f72ed83c8a16ce4ea371') in 0.033696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Retry.png
+  artifactKey: Guid(e832eaf2d510f884b8dc537263330ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Retry.png using Guid(e832eaf2d510f884b8dc537263330ebb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '023da5083ae7e78d2c315135ddf823a8') in 0.026804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/settings.png
+  artifactKey: Guid(08dc9642249d7d141abb8c807ac774fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/settings.png using Guid(08dc9642249d7d141abb8c807ac774fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76775b2d299668b352e93cbd6dc96161') in 0.031245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Menu-3.png
+  artifactKey: Guid(d853acebd7811d54da8b05e5d704bb15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Menu-3.png using Guid(d853acebd7811d54da8b05e5d704bb15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bf9015d41cd922a1a7e7c1c5321c9ff') in 0.030815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Video.png
+  artifactKey: Guid(eb954da7f28f5274585bb50777374d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Video.png using Guid(eb954da7f28f5274585bb50777374d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db3897533c0a9d089007d4540fc49a26') in 0.030259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Zoom-out.png
+  artifactKey: Guid(686a3412a59c30142b1b599800ef85aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Zoom-out.png using Guid(686a3412a59c30142b1b599800ef85aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32b8ac4079f05a67a5ad6579904fe858') in 0.029942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Vibrate.png
+  artifactKey: Guid(0c4de1b53d5fb064086fca628afc0e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Vibrate.png using Guid(0c4de1b53d5fb064086fca628afc0e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1e12e65f07af71723b7bb903ff855db') in 0.030931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Achivement.png
+  artifactKey: Guid(13b55024434fa2f45ae783d82fb2c67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Achivement.png using Guid(13b55024434fa2f45ae783d82fb2c67f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '223fe93e9a0ced6e161512f92fb2a6b1') in 0.032661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Next-3.png
+  artifactKey: Guid(aea0ceb7e7e58d74da069d5fd5e8fa16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Next-3.png using Guid(aea0ceb7e7e58d74da069d5fd5e8fa16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6ad7268bf4281cb4f218c9647b25da8') in 0.031433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Next.png
+  artifactKey: Guid(a481171c113d7e64cafd0f4424427810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Next.png using Guid(a481171c113d7e64cafd0f4424427810) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe42dffe472acf971451932a2b78ce8d') in 0.028067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Logout.png
+  artifactKey: Guid(17de6b34814cbb2498a3a48fe301a316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Logout.png using Guid(17de6b34814cbb2498a3a48fe301a316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af252ec3ac1d1229f7d8fac415a4191d') in 0.030763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Rate.png
+  artifactKey: Guid(395b1a938a41efe4bafc59ea1211f8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Rate.png using Guid(395b1a938a41efe4bafc59ea1211f8dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7231bc5b8f3eda18c5ffba68bc3e17a5') in 0.031531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Heart.png
+  artifactKey: Guid(7941e3233e5c40743b5fd9dcecbe6b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Heart.png using Guid(7941e3233e5c40743b5fd9dcecbe6b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47a3660018962a64b687c6c1b77b5ed6') in 0.028918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Game-Play-.png
+  artifactKey: Guid(4eda45c4da1f2764a90a048fb6ea1089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Game-Play-.png using Guid(4eda45c4da1f2764a90a048fb6ea1089) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03bdc53ca2e0081338780e55672c4b0a') in 0.028898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Menu-3.png
+  artifactKey: Guid(68831e8256294a64ea890e69ad0d3fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Menu-3.png using Guid(68831e8256294a64ea890e69ad0d3fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b56a395e754feebf92bfb5de73d828d') in 0.029834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Forback.png
+  artifactKey: Guid(2ccb00c57d89cb14ca8fd3751f03653d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Forback.png using Guid(2ccb00c57d89cb14ca8fd3751f03653d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d5ac9fc986c10e058923b3b4511559f') in 0.027892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Mail.png
+  artifactKey: Guid(70460a8ab45993241a30785d93704345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Mail.png using Guid(70460a8ab45993241a30785d93704345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4664ac98c9f7a8fe72f5a62636f02ce') in 0.032658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Blank.png
+  artifactKey: Guid(a697acdb55f769c46a3c14378df8d11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Blank.png using Guid(a697acdb55f769c46a3c14378df8d11c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5770f9ff1d59a33973b978ed1cf77bb2') in 0.032179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Bullet-1.png
+  artifactKey: Guid(b6ef278c22dc921439cefcde48e6f0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Bullet-1.png using Guid(b6ef278c22dc921439cefcde48e6f0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8546f75724d1a900c0b20751820c5590') in 0.028233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Hint.png
+  artifactKey: Guid(2a8dcf6a6b1156b44b543b4c5b5b5547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Hint.png using Guid(2a8dcf6a6b1156b44b543b4c5b5b5547) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c965c6088aa6b682701b0aa502a89f7f') in 0.027624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Like.png
+  artifactKey: Guid(f926a843c19f69e4b9e8bfa6aa660e66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Like.png using Guid(f926a843c19f69e4b9e8bfa6aa660e66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1a196a6f446b3bffaae1dc4d254c8d9') in 0.028799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Edit.png
+  artifactKey: Guid(d841e32306ac61b4bb604659c9abbac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Edit.png using Guid(d841e32306ac61b4bb604659c9abbac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eca84f094a7fa22fad66b742eaa2ecf3') in 0.031618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001372 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Menu-4.png
+  artifactKey: Guid(8a6d6b52d8a8d264c8f4485c0b58c7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Menu-4.png using Guid(8a6d6b52d8a8d264c8f4485c0b58c7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e8fb62ffa4938a30866b700a31206b5') in 0.031673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/back-2.png
+  artifactKey: Guid(aac2d8b59deda1843b7587db3b989eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/back-2.png using Guid(aac2d8b59deda1843b7587db3b989eb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd36e83a385d47d9fee048a09313f343') in 0.030960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Close.png
+  artifactKey: Guid(70f1d194d1174ce4d8614db2d2ca9348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Close.png using Guid(70f1d194d1174ce4d8614db2d2ca9348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8916472e9203c809e31e939c34b78090') in 0.031382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Download.png
+  artifactKey: Guid(7a4f59ace9d3d5343a1f56dd6640ca6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Download.png using Guid(7a4f59ace9d3d5343a1f56dd6640ca6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35a6ecd2264957db95074353d13c2ce1') in 0.029061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Notification.png
+  artifactKey: Guid(c4bd27c1e0d0d6645afda182cd5178e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Notification.png using Guid(c4bd27c1e0d0d6645afda182cd5178e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1c8f56e817855b0390057afc76860cc') in 0.034662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Forward.png
+  artifactKey: Guid(f9f0fced627c2a34d892d62aca9178a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Forward.png using Guid(f9f0fced627c2a34d892d62aca9178a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07b41d8acdfd1b74b1236e92957b9ac6') in 0.026590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Home.png
+  artifactKey: Guid(08f1fab99e0fc804b95259ef250210c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Home.png using Guid(08f1fab99e0fc804b95259ef250210c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ce9dede46817c367dc9968a266f679f') in 0.028835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Reload.png
+  artifactKey: Guid(5b5ac7c647b1bc3439e99b2eb8d4f13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Reload.png using Guid(5b5ac7c647b1bc3439e99b2eb8d4f13b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f607102b2f9413b619babde18a65e8e') in 0.028073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Zoom-in.png
+  artifactKey: Guid(50b77fa449e858240898e4a4490f7a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Zoom-in.png using Guid(50b77fa449e858240898e4a4490f7a1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d7072c440e607c2de996ea59a68f731') in 0.027502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Camera.png
+  artifactKey: Guid(03eb17c7e0a4f4447b3c311ffe187375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Camera.png using Guid(03eb17c7e0a4f4447b3c311ffe187375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09d620069e400f62cc9351c5bd667818') in 0.029727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Achivement2.png
+  artifactKey: Guid(71deaf68904ea8b40b3841c7834357f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Achivement2.png using Guid(71deaf68904ea8b40b3841c7834357f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9d6593357535778234a24c4554f4e51') in 0.030238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Zoom.png
+  artifactKey: Guid(6a98e9d89482ebf4485339a467ec364b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Zoom.png using Guid(6a98e9d89482ebf4485339a467ec364b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d38ec36490ad24f40ee5331a90cf75b') in 0.027244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Chat.png
+  artifactKey: Guid(baf97fbd857e67e4a96a9ffe77fe1b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Chat.png using Guid(baf97fbd857e67e4a96a9ffe77fe1b94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64aecbae5620d150460a662d0ed4aa41') in 0.029537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Cart.png
+  artifactKey: Guid(fdea9c5f83328594ea19b0e51d7b0587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Cart.png using Guid(fdea9c5f83328594ea19b0e51d7b0587) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0904680914598574c2ef92367ae82d1c') in 0.030326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Bullet-1.png
+  artifactKey: Guid(d247bb7b6ec4b244ebcedc943d123a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Bullet-1.png using Guid(d247bb7b6ec4b244ebcedc943d123a0e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '119a767d2114c227500f84ef3746da46') in 0.029115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Replay.png
+  artifactKey: Guid(97167c1e2bf814a41b8e901f94665a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Replay.png using Guid(97167c1e2bf814a41b8e901f94665a5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89937b488b1e0a5bc48797141c47edd7') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/rewards.png
+  artifactKey: Guid(12a07e1d25969d946a9343318f92bdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/rewards.png using Guid(12a07e1d25969d946a9343318f92bdb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f0b99b9eb8c199d127e0f9dc37b3e8') in 0.029534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/back-1.png
+  artifactKey: Guid(b5363625c49ccb149a456b5b345b660f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/back-1.png using Guid(b5363625c49ccb149a456b5b345b660f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7eec4438bf79a3e45df71d603b0c55d5') in 0.029626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Retry.png
+  artifactKey: Guid(218c6b61840b95649bbfd120cf05293c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Retry.png using Guid(218c6b61840b95649bbfd120cf05293c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42c74ad9c66c4babe393e7a69467e59b') in 0.028754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/settings.png
+  artifactKey: Guid(3df573cffd58b0449b0a387da8ab7648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/settings.png using Guid(3df573cffd58b0449b0a387da8ab7648) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37f6dffdff423fbb1e14fac3143ab732') in 0.032629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Pause.png
+  artifactKey: Guid(93d8655451f6df545b51b2f2fe3d8b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Pause.png using Guid(93d8655451f6df545b51b2f2fe3d8b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e21842206d01165c37f46438877d0f87') in 0.027997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Achivement3.png
+  artifactKey: Guid(45c62069e13d2fe4982da6ca69631289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Achivement3.png using Guid(45c62069e13d2fe4982da6ca69631289) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55596abc64f51e3b049847d9b9bc5dc3') in 0.028570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Profile.png
+  artifactKey: Guid(15085f94da0a5e84082256d2120663fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 4/Profile.png using Guid(15085f94da0a5e84082256d2120663fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9324e552f1db4a0e174ce2674f192dcd') in 0.033313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Blank.png
+  artifactKey: Guid(f0e167e7b6889ca4982aa423c493f32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Blank.png using Guid(f0e167e7b6889ca4982aa423c493f32b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba52111796f93326c009237eb516d76d') in 0.030204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Run.png
+  artifactKey: Guid(ac698fa21ae39fc4fa83be63b4396982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Run.png using Guid(ac698fa21ae39fc4fa83be63b4396982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ff0dd54af19287eb7ee48eddd96e069') in 0.030266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/snow-flakes-1.png
+  artifactKey: Guid(29d5c26439b20c14b9a02a5c10dbea9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/snow-flakes-1.png using Guid(29d5c26439b20c14b9a02a5c10dbea9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8160588fe737a189878d6258411f87bb') in 0.030947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Profile.png
+  artifactKey: Guid(1d1cdd1c3cc7c464aa369aed98ca0e2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Profile.png using Guid(1d1cdd1c3cc7c464aa369aed98ca0e2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35591841a69d6914234d3702c7dc9ec7') in 0.028538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Replay.png
+  artifactKey: Guid(693e5147b8d362b49b488f9755d48fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Replay.png using Guid(693e5147b8d362b49b488f9755d48fb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7e162659580b9a04e75fbd6bfd72bb9') in 0.029235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/People.png
+  artifactKey: Guid(b4f62e13b126a474180ba84421864949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/People.png using Guid(b4f62e13b126a474180ba84421864949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8eacd1a1d17fa5c261d526d193fcd1b7') in 0.031519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Music2off.png
+  artifactKey: Guid(ef1e4e27a6389f640ba7da7279c493d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Music2off.png using Guid(ef1e4e27a6389f640ba7da7279c493d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57bbae85c7587e4ec4c4d8f0744385b1') in 0.032524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Retry.png
+  artifactKey: Guid(7d45bd96a19c96441bd5f350b4bdfbc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Retry.png using Guid(7d45bd96a19c96441bd5f350b4bdfbc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd179ef2237991fc3b524cd55273abca6') in 0.029756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/NotificationOff.png
+  artifactKey: Guid(2388d7317c7ffa34fa2d2b7a3d46095a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/NotificationOff.png using Guid(2388d7317c7ffa34fa2d2b7a3d46095a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3228fc18527a4b2389080a21c5b01ab7') in 0.034144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Download.png
+  artifactKey: Guid(7d2bb8a5955543744b7974c0abc705b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Download.png using Guid(7d2bb8a5955543744b7974c0abc705b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52311322cd5d19e38a6a76ece78c84fa') in 0.029915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Heart.png
+  artifactKey: Guid(a7febec5d2eefaf4bbc8d228c776cdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Heart.png using Guid(a7febec5d2eefaf4bbc8d228c776cdd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccea9ffcbe85e1933362b5a57c565460') in 0.030679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Sharee.png
+  artifactKey: Guid(5b6c47c36713d9c42b4da448cfdbd769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Sharee.png using Guid(5b6c47c36713d9c42b4da448cfdbd769) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71aa41903fd42856e7487d4ea6ac5f18') in 0.033677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Menu-2.png
+  artifactKey: Guid(ae4f4a57f6e81104589a11a09e4f6a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Menu-2.png using Guid(ae4f4a57f6e81104589a11a09e4f6a78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce1fd23055788868d26f0ca5feffd879') in 0.032435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Network.png
+  artifactKey: Guid(5e048cd5f23ba104ea1116c6eb96214a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Network.png using Guid(5e048cd5f23ba104ea1116c6eb96214a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45913ebd8f1f43ec3201c0a36c36f4a5') in 0.033256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Music-on.png
+  artifactKey: Guid(fb99ddfa65c19484a9e718b2bda6e6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Music-on.png using Guid(fb99ddfa65c19484a9e718b2bda6e6db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b958c9b696ca419b29ae29ee782d92d1') in 0.030065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Down.png
+  artifactKey: Guid(98c335849b19b114eac28d3d4f3420a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Down.png using Guid(98c335849b19b114eac28d3d4f3420a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b81089778c3602937cf0d68faf94e02') in 0.028764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Jump.png
+  artifactKey: Guid(50fa38dab706f6d4ea6ea5702fd5b10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Jump.png using Guid(50fa38dab706f6d4ea6ea5702fd5b10c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3cf022003a62caa3eeb0b712f7e011d') in 0.027346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Soundon-.png
+  artifactKey: Guid(92b4d52b95cb0674c829fec035f43837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Soundon-.png using Guid(92b4d52b95cb0674c829fec035f43837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8571e00729591af5089ce5953c05b329') in 0.026937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/middle.png
+  artifactKey: Guid(4c166cabf23dcf64aa740b19aa813837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/middle.png using Guid(4c166cabf23dcf64aa740b19aa813837) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e59be9afc3710003482aa69e8afff1a5') in 0.029704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/2/Bg.png
+  artifactKey: Guid(4cf613bec4002944b86e3b421b68cff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/2/Bg.png using Guid(4cf613bec4002944b86e3b421b68cff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ce6708c1983d820c7a5f2c4e43046ee') in 0.031155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Zoom-out.png
+  artifactKey: Guid(8748104d79b87864bb998eb37dd9f9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Zoom-out.png using Guid(8748104d79b87864bb998eb37dd9f9ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0b307dbe063ddfe755753e452245824') in 0.030157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Sub.png
+  artifactKey: Guid(cfd21c81e753d2e409a1e0fc29483029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Sub.png using Guid(cfd21c81e753d2e409a1e0fc29483029) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef351abe397292a6e1596f5c9ee288b0') in 0.031394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/3.png
+  artifactKey: Guid(f16d7f3641916bb40898e4e92d415908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/3.png using Guid(f16d7f3641916bb40898e4e92d415908) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c08b35133193b55ce903780041212abb') in 0.031328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/1.png
+  artifactKey: Guid(b01163b14c5428d44a484bb3429cfb1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/1.png using Guid(b01163b14c5428d44a484bb3429cfb1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad36fb1725122f7bace82afdb9c69180') in 0.030321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/3/Pointer.png
+  artifactKey: Guid(546ae67348b3eb4439e9987419f563ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/3/Pointer.png using Guid(546ae67348b3eb4439e9987419f563ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89a576fd6c17051d00577ed9818ab7e1') in 0.029606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Shuffle.png
+  artifactKey: Guid(a8d5f42b833abdf45833dc194d31cbaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Shuffle.png using Guid(a8d5f42b833abdf45833dc194d31cbaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd3258f5ae6fc8dab444b1eea75e06e8') in 0.030906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle/4.png
+  artifactKey: Guid(cdf406cfb9cd2034796d7006e0e34132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle/4.png using Guid(cdf406cfb9cd2034796d7006e0e34132) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '819331aad0b189ea6e6c63e5cc1d90bb') in 0.027372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Vibrate.png
+  artifactKey: Guid(d1023bb2ab6a49440adb1724787ee410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Vibrate.png using Guid(d1023bb2ab6a49440adb1724787ee410) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ef8d914a86b829955856d0ab164da6') in 0.028581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/4/Middle.png
+  artifactKey: Guid(4e6fdd9a2c1e91d4bbb0ec98ee6d7da8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/4/Middle.png using Guid(4e6fdd9a2c1e91d4bbb0ec98ee6d7da8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e41cad935cb0169b0832d168db4574e4') in 0.032986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/bg.png
+  artifactKey: Guid(746cc1e494bdb7c44bfb9cfde3b094ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/bg.png using Guid(746cc1e494bdb7c44bfb9cfde3b094ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ef51e3c4f28b757282772b9be9a7cf2') in 0.033080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/2/Inner.png
+  artifactKey: Guid(fa2cb043e3c659e489d2ad2e43b82784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/2/Inner.png using Guid(fa2cb043e3c659e489d2ad2e43b82784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39d5dfaba3da79a297badd23f7c003f6') in 0.036831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/4.png
+  artifactKey: Guid(687535bbe044e474d94c21b004ad15df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Rectangle 2/4.png using Guid(687535bbe044e474d94c21b004ad15df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9e2efaa7a23b50a6bbf444553656877') in 0.036903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/pointer.png
+  artifactKey: Guid(5baf76064bf518d47bb4829cad1a6c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/1/pointer.png using Guid(5baf76064bf518d47bb4829cad1a6c5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcfe32bad05253df2fb3c1a287b0619a') in 0.031246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/5/Inner.png
+  artifactKey: Guid(8cc4565cb5bf5994798f7c57bcb7953a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Spin wheel/5/Inner.png using Guid(8cc4565cb5bf5994798f7c57bcb7953a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ccc48d4aa1066471c382c00f2567fc4') in 0.032797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Additional/2.png
+  artifactKey: Guid(43e0a24a4008282409d214effdefa649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Additional/2.png using Guid(43e0a24a4008282409d214effdefa649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0745b86d26e2578e6d2c10ccc78e762') in 0.035142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/smile.png
+  artifactKey: Guid(24b0a9e579611724d9a6f9e35f2a4e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/smile.png using Guid(24b0a9e579611724d9a6f9e35f2a4e76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '988747770b5243c48e5818c50ed5a755') in 0.035325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Panel 1/1.png
+  artifactKey: Guid(813a6482164c32c42916452883abf016) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Panel 1/1.png using Guid(813a6482164c32c42916452883abf016) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cf112f4077a9abfb89d698c8a93d7b8') in 0.030602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78743d96fa85f8d51c7b9ffa9fb9af05') in 0.020439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Like.png
+  artifactKey: Guid(1b03fff226de2ec44a6b83ffcc47a6cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Like.png using Guid(1b03fff226de2ec44a6b83ffcc47a6cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a38f7f926d11297e9d68d5d205c5ff1d') in 0.028126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Error.png
+  artifactKey: Guid(150ed9c8847f827468abdbe7a466590b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Error.png using Guid(150ed9c8847f827468abdbe7a466590b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac56245c05e03c8dbeb429d2d1b6044') in 0.027062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Star3.png
+  artifactKey: Guid(f89142e2eaf541b49b021dfefc13f199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Star3.png using Guid(f89142e2eaf541b49b021dfefc13f199) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43f5365d635bc831f6db48dc71509232') in 0.027833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Mail.png
+  artifactKey: Guid(69c76697e02d5df44ac8f3c943bcabd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Mail.png using Guid(69c76697e02d5df44ac8f3c943bcabd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd92d78c0a70e2033d33c4055fe8e252b') in 0.029231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Star-wing.png
+  artifactKey: Guid(7e519ce87cc13554a94fe284a7ae3e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Props/Star-wing.png using Guid(7e519ce87cc13554a94fe284a7ae3e5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4ae8abe29dbcbd502a4785deb5b04d2') in 0.026961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Menu-3.png
+  artifactKey: Guid(f0625c6c2cd9775429eb736580af25d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 5/Menu-3.png using Guid(f0625c6c2cd9775429eb736580af25d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce2120fa878eebafd7ccb2f18a42721c') in 0.027414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Unlock.png
+  artifactKey: Guid(ef31c25a52691dd4099519eda19e7fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Buttons/Button 3/Unlock.png using Guid(ef31c25a52691dd4099519eda19e7fd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97a469c4ad15366c01a6cb45fdb597c2') in 0.027693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Music-on.png
+  artifactKey: Guid(398ddabec35a5e545b597f41583fff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Music-on.png using Guid(398ddabec35a5e545b597f41583fff08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5191f5a46f0739007d30a1c030026d5a') in 0.034294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e04b1aee767b7b8704268b005ac4f11') in 0.017361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Copy.png
+  artifactKey: Guid(d8bfabebcedbfbb4ebd503cd5703f395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/White icon/Copy.png using Guid(d8bfabebcedbfbb4ebd503cd5703f395) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44ea21598f89f4b0c9d0de1e1cc0f5e6') in 0.027760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Arrow/Left-2.png
+  artifactKey: Guid(98e343c13d4c0314aabf69b4c5c4a273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Saurabh Studio/Awesome Game UI and Icon pack 17/Arrow/Left-2.png using Guid(98e343c13d4c0314aabf69b4c5c4a273) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f989389b8bb83cce8b015ed54b1ddc67') in 0.028537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
